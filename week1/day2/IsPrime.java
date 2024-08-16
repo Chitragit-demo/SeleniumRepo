@@ -12,5 +12,6 @@ public static void main(String[] args) {
 		else
 			System.out.println("The number is Prime: "+i);
 	}
+	//Need to dig more to get a correct solution
 }
 }
