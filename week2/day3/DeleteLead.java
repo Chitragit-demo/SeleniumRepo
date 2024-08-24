@@ -23,7 +23,10 @@ public class DeleteLead {
 		driver.findElement(By.name("phoneCountryCode")).sendKeys("0");
 		driver.findElement(By.name("phoneAreaCode")).sendKeys("91");
 		driver.findElement(By.name("phoneNumber")).sendKeys("9555510000");
+		driver.findElement(By.xpath("//button[text()='Find Leads']")).click();
+		driver.findElement(By.xpath("//table[@class='x-grid3-row-table']//a")).click();
 		
+		//Click the first resulting ID - how to capture?
 		
 	}
 
